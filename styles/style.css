@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* nav styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+
+}
+
+.nav-title {
+    font-size: 1.8rem;
+}
+
+
+.nav-item {
+    display: flex;
+    
+    
+    
+
+}
+
+
+.nav-item li {
+    list-style: none;
+    margin-right: 40px;
+    
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* banner related styles */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.banner-content {
+    width: 50%;
+    /* margin-right: 30px; */
+
+}
+
+.banner-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.btn-prime {
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 24px;
+    color: #fff;
+    background: rgb(255, 107, 132);
+}
+
+.main-img {
+    width: 30%;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 30px;
+
+}
+
+@media screen and (max-width:576px) {
+
+
+    .nav {
+        padding: 0 0;
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: 95%;
+        text-align: center;
+        
+    
+    }
+    
+    .main-img {
+        width: 90%;
+        
+        margin: 0 auto;
+    
+    }
+
+
+
+
+}
