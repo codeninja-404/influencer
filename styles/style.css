@@ -87,6 +87,42 @@ body {
 
 }
 
+/* main styles */
+
+/* cards styles */
+.card{
+    /* border: 1px solid; */
+    /* width: 13%; */
+    text-align: ;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: .5px .5px 30px rgb(186, 186, 186);
+}
+
+.wrapper{
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px) {
 
 
@@ -114,6 +150,14 @@ body {
         
         margin: 0 auto;
     
+    }
+
+    .wrapper{
+        width: 80%;
+        
+        
+        grid-template-columns:  1fr;
+        
     }
 
 
